@@ -256,47 +256,35 @@ The model's performance metrics should be interpreted in clinical context:
 
 ## How I Actually Built This
 
-### Week 1: Research and Planning
+### Day 1: Research and Planning
 - Spent way too much time reading medical papers about recovery factors
 - Realized I needed to understand what actually affects recovery time
 - Decided on the key features: age, BMI, heart rate, pain level, mobility
 - Started sketching out the app structure
 
-### Week 2: Data Stuff
+### Day 2: Data Stuff
 - Built the synthetic data generator (this was harder than I thought)
 - Had to make sure the fake data actually looked realistic
 - Added validation to catch any weird data issues
 - Spent a lot of time tweaking the formulas to get realistic relationships
 
-### Week 3: Machine Learning
+### Day 3: Machine Learning
 - Implemented Random Forest (chose it because it's reliable)
 - Got the train/test split working properly
 - Added feature importance so you can see what matters most
 - Tried to make the model evaluation actually useful
 
-### Week 4: Making It Usable
+### Day 4: Making It Usable
 - Built the Streamlit interface (first time using it, actually pretty cool)
 - Added all the visualization stuff
 - Made the prediction form work properly
 - Added export functionality because why not
 
-### Week 5: Polish and Testing
+### Day 5: Polish and Testing
 - Tested everything to make sure it actually works
 - Fixed a bunch of bugs (there were more than I expected)
 - Wrote this README
 - Got ready for the hackathon
-
-## License
-
-MIT License
-
-Copyright (c) 2024 MediSense AI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Why I Made This
 
